@@ -1,75 +1,48 @@
-# 🏺 ENORMOUSFACE: THE OMNI-DIRECTIONAL FILIBUSTER 🏺
-### [ A Repository of Structural Despair and Kinetic Garbage ]
+# The Enormousface Archive [this readme made by robotic babies]
+## [ Material Research | Performance Collective | Digital Midden-Heap ]
 
-> "Gawbage is wot bwings us, togever, towdae..." 
-> — The Prophet of the Open Maw
+### **Overview**
+This repository serves as a central digital node and archival placeholder for the practice of enormousfae
 
-This repository is a **non-place**. It is a placeholder for the digital debris of Kalan Sherrard (enormousface), the MEGAFAWN collective, and the ongoing assassination of the narrative tradition. 
+The work situated here investigates the intersection of **Discard Studies**, **Non-Traditional Puppetry**, and **Ontological Theory**. Through the use of kinetic sculptures (Performance Carts) and "Offal Unstory" scripts, the practice seeks to challenge Western narrative structures and explore the "abject aesthetic" of the Anthropocene.
 
 ---
 
-## 🛠 CORE SPECIFICATIONS
+### **Core Research Vectors**
 
-| Component | Status | Materiality |
+| Vector | Focus Area | Methodology |
 | :--- | :--- | :--- |
-| **The Performance Cart** | Mobile | Scavenged wood, wet mud, industrial rot |
-| **The Offal Unstory** | Decaying | 1/4" magnetic tape, tremulous voices |
-| **Structural Despair** | Active | 100% Post-consumer ontological collapse |
-| **MegaFawn 2026** | Ritualizing | Cuneiform, Silt, Fossil Fuels |
+| **Garbosphere Studies** | Discard Studies | Scavenging as a primary mode of material acquisition and philosophical inquiry. |
+| **Kinetic Puppetry** | Object Theater | Engineering "low-tech" robotic and haptic systems using reclaimed industrial components. |
+| **Anti-Narrative Text** | Philology/Theory | Deconstructing the "Epic" (Gilgamesh, Popol Vuh) to analyze the links between storytelling and capital. |
+| **Social Sculpture** | Performance Art | Intervening in urban psychogeography via mobile, autonomous sculptural units. |
 
 ---
 
-## 📜 THEORETICAL ESOTERICA
+### **Current Projects (2025–2026)**
 
-### 1. The Morphology of Rot
-The code within this `index.html` is designed to be **metabolically active**. Like a rotting papaya in a Comala gutter, the syntax is intended to attract the "Vermin of the Public Gaze." We do not "debug" here; we allow the bugs to co-author the script.
-
-### 2. The Stick-Physics Manifesto
-Everything in this universe is hanging by a threadbare vine.
-* **A Tiger Above:** The weight of the Canon (Homer, Dante, Shakespeare).
-* **A Tiger Below:** The extinction of Megafauna (Moby Dick, Aurochs, Land Rovers).
-* **The Black and White Mouse:** The binary of 0s and 1s gnawing at the vine of this GitHub server.
-* **The Strawberry:** This website. *Delicious.*
-
-### 3. Proto-Ur-Texts & Data-Middening
-This repository recognizes the following as primary documentation:
-- The Epic of Gilgamesh (The Original Trash-Man)
-- The Legendary Lost Porn Bible of XOS
-- The internal temperature of a New York Subway car in August
-- The melting point of Lispector’s Cockroach
+* **The Epic of Gilgamesh:** A large-scale, kinetic staging of the foundational Mesopotamian text, reimagined as an ecological metaphor for resource extraction and extinction.
+* **The Primitivist Science Fair:** A curated series of panels and performances exploring anti-technology themes and "pseudo-academic" structures.
+* **Ceramic Puppetry Research:** A collaboration with Rym Essaghier (Limoges, France) focused on the materiality of "wet clay" and its performative potential.
 
 ---
 
-## 🏗 INSTALLATION (The Rite of Passage)
-
-To deploy the `enormousface` front-end, you must first acknowledge that you are a "Baby Garbage" being born into the "End of the World."
-
-1. **Clone the Abyss:**
-   `git clone https://github.com/enormousface/midden-heap.git`
-2. **Ignite the Narrative Tradition:**
-   `rm -rf ./linear_plots/`
-3. **Open the Maw:**
-   Open `index.html` in a browser that has been exposed to at least three hours of direct sunlight or industrial grime.
+### **Technical Infrastructure**
+This site is maintained using a **Legacy-Positive Workflow**. By utilizing tools like **SeaMonkey** and **Ubuntu Linux**, the archive mirrors the "Scavenger Logic" of the physical work—repurposing functional digital artifacts to resist the planned obsolescence of modern web design.
 
 ---
 
-## ☣️ WARNING: NON-GOAL-ORIENTATION
-This project has no beginning, no middle, and no fucking end. If you find a "Resolution" or a "Denouement" in the code, please report it as a **Critical Security Vulnerability**. Narrative is a beard for Colonialism. 
-
-### "An eye for a tooth."
-
----
-
-## 🌑 COLLABORATORS IN THE VOID
-* **Ron Shalom:** 17 years of shared ritual.
-* **Rym Essaghier:** Ceramicist of the Abject.
-* **Snuff Puppets:** The International Wonder of the World (Write a letter to Colin Brooks!).
-* **The Worm:** The first to gnaw on the cold flesh of the script.
+### **Collaborations & Affiliations**
+* **MegaFawn Collective:** Co-founded with long-time collaborator **Ron Shalom**.
+* **Creatures from the Hole:** and the daughters of shit.
+* **Garbage Fest:** touring pro-garbage festival.
 
 ---
 
-****
+### **Contact & Inquiries**
+For professional inquiries regarding residencies, lectures, or site-specific performances, please contact the studio directly via the repository's linked documentation.
 
-`[ END OF FILE ]`
-`[ RESTARTING... ]`
-`[ ...IT HAPPENS AGAIN AND AGAIN FOREVER ]`
+*"The abolition of narrative as the illusory happiness of the people is the demand for their real happiness."*
+
+---
+© 2026 Kalan Sherrard. All rights reserved. Managed under the Enormousface Protocol.

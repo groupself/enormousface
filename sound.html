@@ -1,0 +1,58 @@
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<title></title>
+</head>
+<body>
+<font face="Courier New, Courier, monospace"> <img
+src="https://groupself.github.io/enormousface/words/sound.jpg"
+alt="don't listen" width="194" height="45"><br>
+<br>
+Radio Shh, 2020<br>
+</font><audio id="main-player" controls="controls"
+src="sounds/AntistoryZ.mp3"></audio><font face="Courier New,
+Courier, monospace"> </font>
+<ul id="playlist">
+<li><font face="Courier New, Courier, monospace"><a
+href="sounds/AntistoryZ.mp3">01. Anti-Story</a></font></li>
+<li><font face="Courier New, Courier, monospace"><a
+href="sounds/Slowtoro.mp3">02. Slowtoro</a></font></li>
+<li><font face="Courier New, Courier, monospace"><a
+href="sounds/The_Wind_Of_Another_Planet.mp3">03. The Wind of
+Another Planet</a></font></li>
+<li><font face="Courier New, Courier, monospace"><a
+href="sounds/Worm_Uncoiled.mp3">04. Worm Uncoiled</a></font></li>
+<li><font face="Courier New, Courier, monospace"><a
+href="sounds/Commencement_Speech.mp3">05. Commencement
+Speech</a></font></li>
+<li><font face="Courier New, Courier, monospace"><a
+href="sounds/Too_Busy.mp3">06. Too Busy (Part I)</a></font></li>
+<li><font face="Courier New, Courier, monospace"><a
+href="sounds/No_Self.mp3">07. No Self</a></font></li>
+<li><font face="Courier New, Courier, monospace"><a
+href="sounds/ChineseAutoCallMessage.mp3">08. Autocall (Part
+I)</a></font></li>
+<li><font face="Courier New, Courier, monospace"><a
+href="sounds/The_Balloon.mp3">09. The Balloon</a></font></li>
+</ul>
+<p><font face="Courier New, Courier, monospace">[<a
+href="http://www.enormousface.com">back</a>]</font><br>
+</p>
+<ul id="playlist">
+</ul>
+<font face="Courier New, Courier, monospace">
+<script>
+const player = document.getElementById('main-player');
+const links = document.querySelectorAll('#playlist a');
+
+links.forEach(link => {
+link.onclick = (e) => {
+e.preventDefault();
+player.src = link.href;
+player.play();
+};
+});
+</script> </font>
+</body>
+</html>
+

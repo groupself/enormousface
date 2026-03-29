@@ -42,15 +42,52 @@ href="http://www.enormousface.com">back</a>]</font><br>
 </ul>
 <font face="Courier New, Courier, monospace">
 <script>
-const player = document.getElementById('main-player');
-const links = document.querySelectorAll('#playlist a');
+const audio = document.getElementById('audio-element');
+const playlist = document.getElementById('playlist');
+const tracks = playlist.querySelectorAll('li');
+const titleDisplay = document.getElementById('current-title');
+let currentTrackIndex = 0;
 
-links.forEach(link => {
-link.onclick = (e) => {
-e.preventDefault();
-player.src = link.href;
-player.play();
-};
+function playTrack(index) {
+// Keep index within bounds for the loop
+if (index >= tracks.length) index = 0;
+if (index < 0) index = tracks.length - 1;
+
+const track = tracks[index];
+const src = track.getAttribute('data-src');
+
+// Only reload if the source is actually different
+if (audio.src !== src) {
+audio.src = src;
+audio.load();
+}
+
+titleDisplay.innerText = track.innerText;
+
+// UI: Highlight playing track
+tracks.forEach(t => {
+t.style.fontWeight = 'normal';
+t.style.color = '#555'; // Faded for unplayed
+});
+track.style.fontWeight = 'bold';
+track.style.color = '#000'; // Stark for active
+
+audio.play().catch(e => console.log("User interaction required for autoplay"));
+currentTrackIndex = index;
+}
+
+// Click behavior
+tracks.forEach((track, index) => {
+track.addEventListener('click', () => {
+playTrack(index);
+});
+});
+
+// THE REPEATING ENGINE
+audio.addEventListener('ended', () => {
+// Moves to next track, or back to 0 if at the end
+let nextIndex = (currentTrackIndex + 1) % tracks.length;
+playTrack(nextIndex);
 });
 </script> </font>
 </body>

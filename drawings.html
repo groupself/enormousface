@@ -15,7 +15,62 @@ src="http://www.flickr.com/slideShow/index.gne?group_id=&amp;user_id=52168454@N0
 scrolling="no" width="500" height="500" frameborder="0"
 align="middle"></iframe><br>
 <br>
-OLD WORKS<br>
+OLD WORKS<br><div id="gallery-container" style="text-align: center; cursor: crosshair; font-family: monospace;">
+  <h3 id="image-title">Click image to advance</h3>
+  
+  <div style="min-height: 500px; display: flex; align-items: center; justify-content: center;">
+    <img id="main-view" 
+         src="images/drawings/Body.png" 
+         style="max-width: 100%; max-height: 85vh; border: 1px solid #000;">
+  </div>
+
+  <p id="counter" style="margin-top: 15px;">1 / 13</p>
+</div>
+
+<script>
+  // These match the filenames in your images/drawings/ folder
+  const drawings = [
+    "images/drawings/Body.png",
+    "images/drawings/Earth_man.jpg",
+    "images/drawings/NIXhet.jpg",
+    "images/drawings/blakean.jpg",
+    "images/drawings/copyofacopi.jpg",
+    "images/drawings/flossdentata.jpg",
+    "images/drawings/fuckpainting.jpg",
+    "images/drawings/los-edificios-y-el-primitivismo.jpg",
+    "images/drawings/pinkeverythinggenus.jpg",
+    "images/drawings/pinksexdeathother.jpg",
+    "images/drawings/planforpuppetshow.jpg",
+    "images/drawings/ygdrasil.jpg"
+  ];
+
+  let currentIndex = 0;
+  const mainView = document.getElementById('main-view');
+  const counter = document.getElementById('counter');
+  const title = document.getElementById('image-title');
+
+  function updateImage(index) {
+    if (index >= drawings.length) index = 0;
+    if (index < 0) index = drawings.length - 1;
+    
+    currentIndex = index;
+    mainView.src = drawings[currentIndex];
+    
+    // Updates the counter and peels the filename for a "title"
+    const fileName = drawings[currentIndex].split('/').pop();
+    title.innerText = fileName;
+    counter.innerText = (currentIndex + 1) + " / " + drawings.length;
+  }
+
+  // Click the image to go forward
+  mainView.onclick = () => updateImage(currentIndex + 1);
+
+  // Keyboard support (Arrow keys) for when you're resting
+  document.onkeydown = (e) => {
+    if (e.key === "ArrowRight") updateImage(currentIndex + 1);
+    if (e.key === "ArrowLeft") updateImage(currentIndex - 1);
+  };
+</script>
 <br>
 </font>
 <table cellspacing="2" cellpadding="2" border="0" width="100%">

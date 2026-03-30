@@ -1,0 +1,106 @@
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<title></title>
+</head>
+<body>
+<font face="Courier New, Courier, monospace"><font face="Courier
+New, Courier, monospace"><font face="Courier New, Courier,
+monospace"><a
+href="https://groupself.github.io/enormousface/error.html"><img
+src="https://groupself.github.io/enormousface/words/sculpture.jpg"
+alt="everything is for sale" border="0" width="174"
+height="40"></a></font></font><br>
+<br>
+<br>
+OLD and NEW WORKS<br>
+<br>
+<div id="sculpture-container" style="text-align: center; cursor:
+crosshair; font-family: monospace;">
+<h3 id="sculpture-title">Click to advance</h3>
+<div style="min-height: 500px; display: flex; align-items:
+center; justify-content: center;"> <img id="sculpture-view"
+src="images/sculptpure/belhookswarrhammer.jpg"
+style="max-width: 100%; max-height: 85vh; border: 1px solid
+#000;"> </div>
+<p id="sculpture-counter">1 / 13</p>
+</div>
+<script>
+// Pulling directly from your GitHub folder structure
+const sculptures = [
+"images/sculptpure/belhookswarrhammer.jpg",
+"images/sculptpure/breadumbrella.png",
+"images/sculptpure/claricelispectortraditionalelectricpencil.jpg",
+"images/sculptpure/giftforejennanai.jpg",
+"images/sculptpure/gumandfingernailscomposite.jpg",
+"images/sculptpure/gumbox.JPG",
+"images/sculptpure/moreworlds_dickmoon.jpg",
+"images/sculptpure/nohopeseedbank.png",
+"images/sculptpure/pendulums.jpg",
+"images/sculptpure/ps1piece.jpg",
+"images/sculptpure/rezanickwhole.jpg",
+"images/sculptpure/superunfairdice.jpg",
+"images/sculptpure/world.jpg"
+];
+
+let sIndex = 0;
+const sView = document.getElementById('sculpture-view');
+const sCounter = document.getElementById('sculpture-counter');
+const sTitle = document.getElementById('sculpture-title');
+
+function updateSculpture(index) {
+if (index >= sculptures.length) index = 0;
+if (index < 0) index = sculptures.length - 1;
+
+sIndex = index;
+sView.src = sculptures[sIndex];
+
+// Clean up the name for the title
+const name = sculptures[sIndex].split('/').pop().replace(/\.[^/.]+$/, "");
+sTitle.innerText = name;
+sCounter.innerText = (sIndex + 1) + " / " + sculptures.length;
+}
+
+sView.onclick = () => updateSculpture(sIndex + 1);
+
+document.addEventListener('keydown', (e) => {
+if (e.key === "ArrowRight") updateSculpture(sIndex + 1);
+if (e.key === "ArrowLeft") updateSculpture(sIndex - 1);
+});
+</script> <br>
+<br>
+</font>
+<table cellspacing="2" cellpadding="2" border="0" width="100%">
+<tbody>
+<tr>
+<td valign="top"><font face="Courier New, Courier, monospace">
+</font><br>
+</td>
+<td valign="top"><font face="Courier New, Courier, monospace">
+</font><br>
+</td>
+<td valign="top"><br>
+</td>
+</tr>
+<tr>
+<td valign="top"><font face="Courier New, Courier, monospace">
+</font><br>
+</td>
+<td valign="top"><br>
+</td>
+<td valign="top"><br>
+</td>
+</tr>
+</tbody>
+</table>
+<font face="Courier New, Courier, monospace"><br>
+</font><br>
+<font face="Courier New, Courier, monospace"><a
+href="https://www.enormousface.com"><font face="Courier New,
+Courier, monospace"><img
+src="https://groupself.github.io/enormousface/words/back.jpg"
+alt="everything is for sale" border="0" width="162"
+height="59"></font></a> </font>
+</body>
+</html>
+

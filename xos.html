@@ -16,14 +16,82 @@ battle with cosmic scabies, XOS exists at the cthonic fringes of a
 universe of deep otherness: oceans of pus, carniverous jungles,
 roiling cities of flesh.<br>
 <br>
-<iframe
-src="https://www.youtube.com/embed/LT1vpQ1A5xg?si=PZp_cICruEjIUG2n"
-title="YouTube video player" allow="accelerometer; autoplay;
-clipboard-write; encrypted-media; gyroscope; picture-in-picture;
-web-share" referrerpolicy="strict-origin-when-cross-origin"
-allowfullscreen="" width="560" height="315" frameborder="0"></iframe><br>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/zjX8TeHebMI?si=BlwmldT59GIm1nYI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe><br>
 <br>
 PICTURES HERE<br>
+  <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>XOS // ENORMOUSFACE</title>
+    <style>
+        body { background: #000; color: #fff; font-family: monospace; margin: 0; overflow: hidden; display: flex; flex-direction: column; align-items: center; justify-content: center; height: 100vh; }
+        #gallery-link { cursor: pointer; display: block; max-width: 90vw; max-height: 85vh; }
+        img { max-width: 100%; max-height: 85vh; border: 1px solid #333; transition: opacity 0.2s; }
+        img:hover { border-color: #666; }
+        .nav { margin-top: 20px; font-size: 12px; letter-spacing: 2px; }
+        a { color: #555; text-decoration: none; }
+        a:hover { color: #fff; }
+    </style>
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-EL89G7E1PV"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-EL89G7E1PV');
+    </script>
+</head>
+<body>
+
+    <a id="gallery-link">
+        <img id="display" src="xos/xos00.jpg" alt="XOS">
+    </a>
+
+    <div class="nav">
+        <span id="counter">1 / 12</span> — <a href="index.html">RETURN</a>
+    </div>
+
+    <script>
+        // Exactly matching the filenames in your uploaded GitHub screenshot
+        const images = [
+            'xos/xos00.jpg',
+            'xos/xos001.jpg',
+            'xos/xos003.jpg',
+            'xos/xos004.jpg',
+            'xos/xos01.jpg',
+            'xos/xos02.jpg',
+            'xos/xos03.jpg',
+            'xos/xos04.jpg',
+            'xos/xos05.jpg',
+            'xos/xos07.jpg',
+            'xos/xos08.jpg',
+            'xos/xos09.jpg'
+        ];
+
+        let index = 0;
+        const imgElement = document.getElementById('display');
+        const linkElement = document.getElementById('gallery-link');
+        const counterElement = document.getElementById('counter');
+
+        function nextImage(e) {
+            e.preventDefault();
+            index = (index + 1) % images.length;
+            imgElement.style.opacity = 0;
+            
+            setTimeout(() => {
+                imgElement.src = images[index];
+                counterElement.innerText = `${index + 1} / ${images.length}`;
+                imgElement.style.opacity = 1;
+            }, 150);
+        }
+
+        linkElement.addEventListener('click', nextImage);
+    </script>
+  <br>phots by Richard Termine and Victor Jeffreys ii
+</body>
+</html>
 <br>
 [<a href="www.enormousface.com">back</a>]<br>
 <br>
